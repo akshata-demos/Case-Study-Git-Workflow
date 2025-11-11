@@ -1,0 +1,4 @@
+In software development, DevOps release management is the process of automating,
+coordinating, and controlling the release of software updates.
+It uses continuous integration and delivery (CI/CD) to deliver new features and fixes
+reliably and efficiently.
