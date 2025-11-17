@@ -38,7 +38,7 @@ FUNCTION Release_Product(Product_Details, Target_Environment)
     ENDIF
 
     // --- STAGE 4: RELEASE PREPARATION & DEPLOYMENT ---
-    PRINT "Starting release preparation and deployment phase..."
+   // PRINT "Starting release preparation and deployment phase..."
     FINALIZE Product_Design AND Documentation
     PREPARE Release_Package (Code, Assets, Instructions)
     AUTOMATE Deployment_Process (IF Possible)
@@ -71,3 +71,4 @@ FUNCTION Release_Product(Product_Details, Target_Environment)
     RETURN "Success"
 
 END FUNCTION
+
